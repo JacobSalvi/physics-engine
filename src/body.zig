@@ -1,6 +1,6 @@
-const Vector3 = @import("core.zig").Vector3;
 const Quaternion = @import("raylib").Quaternion;
 const Matrix = @import("raylib").Matrix;
+const Vector3 = @import("raylib").Vector3;
 
 const RigidBody = struct {
     const Self = @This();
